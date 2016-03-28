@@ -1,0 +1,264 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML
+   Final Project
+   Tutorial Case
+
+   Turtle Top E-mail Registration
+   Author: Jennifer Brcak
+   Date:   08/03/2016
+
+   Filename:         register.htm
+   Supporting files: lglogo2.jpg
+-->
+<title>Turtle Top E-Mail Registration</title>
+</head>
+
+<body style="color: rgb(174,200,236); margin: 0">
+<form name="reg" id="reg" action="mailto:jtorres136@student.rcc.edu?subject=Final%20Project%20Intro%20Web%20Creation%20Message"
+      method="post">
+<!-- e-mail address of the recipient -->
+<p><input type="hidden" name="email" id="email" value="mailto:jtorres136@student.rcc.edu?subject=Final%20Project%20Intro%20Web%20Creation%20Message" /></p>
+<table border="0" cellspacing="0" cellpadding="5" width="620"
+       style="background-color: rgb(51,122,84)">
+<!-- Page Heading -->
+
+<thead style="font-family: sans-serif; background-color: rgb(84,153,199)">
+<tr>
+   <td valign="top" width="360" rowspan="4">
+      <img src="lglogo2.jpg" alt="LanGear" width="300" height="150" />
+   </td>
+   <td style="font-size: 1.6em; color: rgb(171,235,198); font-weight: bold; font-style: italic"
+       valign="top" align="center" >
+         <italic>Quality Hatware &amp Accessories</italic>
+   </td>
+</tr>
+<tr>
+   <td style="font-size: 0.9em; font-weight: bold" valign="bottom" align="center">
+        | <a href="about.htm">About</a> | <a href="home.htm">Home Page</a> | <a href="registerwithemail.htm">Registration</a> | <br />
+      | <a href="merchandise.htm">Merchandise</a> | <a href="youraccount.htm">Your Account</a> | 
+   </td> 
+</tr>
+</thead>
+
+<!-- Registration Heading -->
+<tr>
+   <td style="font-family: sans-serif; font-size: large; font-weight: bold"
+       colspan="2" width="100%">
+         Registration
+   </td>
+</tr>
+<tr>
+   <td colspan="2">
+      <hr style="color: rgb(121,216,100); background-color: rgb(121,216,100); height: 1" />
+   </td>
+</tr>
+
+
+<!-- Contact Information -->
+<tr>   
+   <td valign="top" colspan="2">
+
+   <table>
+   <tr>
+      <td width="100"><label for="fname">First Name</label></td>
+      <td><input type="text" name="fname" id="fname" size="30" />
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" size="30" />
+      </td>
+   </tr>
+   <tr>
+      <td><label for="address1">Address #1</label></td>
+      <td><input type="text" name="address1" id="address1" size="60" /></td>
+   </tr>
+   <tr>
+      <td><label for="address2">Address #2</label></td>
+      <td><input type="text" name="address2" id="address2" size="60" /></td>
+   </tr>
+   <tr>
+      <td><label for="city">City</label></td>
+      <td><input type="text" name="city" id="city" size="40" />
+          <label for="state">State</label>
+          <input type="text" name="state" id="state" size="3" />
+          <label for="zip">ZIP</label>
+          <input type="text" name="zip" id="zip" size="10" maxlength="10" />
+      </td>
+   </tr>
+   <tr>
+      <td><label for="country">Country</label></td>
+      <td><input type="text" name="country" id="country" size="40" value="United States" /></td>  
+   </tr>
+   <tr>
+   	<td><label for="e-mail">E-mail</label></td>
+   	<td><input type="text" name="e-mail" id="e-mail" size="40" />
+   </table>
+
+   </td>
+</tr>
+
+<tr>
+   <td colspan="2">
+      <hr style="color: rgb(121,216,100); background-color: rgb(121,216,100); height: 1" />
+   </td>
+</tr>
+
+
+<!-- Product Information -->
+<tr>
+   <td valign="top" colspan="2">
+
+   <table>
+   <tr>
+      <td width="100" valign="top" rowspan="2">
+      <label for="item">Item Purchased</label>
+      </td>
+      <td valign="top" rowspan="2">
+
+      <select name="item" id="item">
+      <optgroup label="None">
+      	<option>None</option>
+      </optgroup>
+      <optgroup label="Hats">
+         <option>Seasonal</option>
+         <option>Miniauture</option>
+         <option>Turtle Top</option>
+      </optgroup>
+      <optgroup label="Bracelets">
+         <option>Seasonal</option>
+         <option>Turtle Top</option>
+         <option>Recycle</option>
+         <option>Outdoor Gear</option>
+      </optgroup>
+      <optgroup label="Pendants">
+         <option>Seasonal</option>
+         <option>Recycle Choker</option>
+         <option>Charm</option>
+         <option>Ribbon</option>
+         <option>Outdoor Gear</option>
+      </optgroup>
+      <optgroup label="custom">
+      	<option>Seasonal</option>
+      	<option>Disaster Ready</option>
+      	<option>Pick 5 Charm Set</option>
+      </optgroup>
+      </select>
+
+      </td>
+      <td valign="top" align="right">
+      <label for="date">Purchase Date</label>
+      </td>
+      <td valign="top">
+      <input type="text" name="date" id="date" size="20" />
+      </td>
+   </tr>
+   <tr>
+      <td width="150" valign="top" align="right">
+      <label for="snumber">Serial Number</label>
+      </td>
+      <td valign="top">
+      <input type="text" name="snumber" id="snumber" size="20" />
+      </td> 
+   </tr>
+   </table>
+
+   </td>
+</tr>
+
+<tr>
+   <td colspan="2">
+      <hr style="color: rgb(121,216,100); background-color: rgb(121,216,100); height: 1" />
+   </td>
+</tr>
+
+
+<!-- Usage Information -->
+<tr>
+   <td valign="top" colspan="2">
+
+   <table><tr>
+      <td valign="top">
+      <fieldset>
+      <legend>Primary Interest In Site(check one)</legend>
+      <input type="radio" name="use" id="self" value="self" />
+      <label for="self">Self</label><br />
+      <input type="radio" name="use" id="gift" value="gift" checked="checked" />
+      <label for="gift">Gift</label><br />
+      <input type="radio" name="use" id="event" value="event" />
+      <label for="event">Event</label><br />
+      <input type="radio" name="use" id="cosplay" value="cosplay" />
+      <label for="cosplay">Cosplay</label><br />
+      <input type="radio" name="use" id="commemoration" value="commemoration" />
+      <label for="commemoration">Commemoration</label>
+      </fieldset>
+      </td>
+
+      <td valign="top">
+      <fieldset>
+      <legend>Interested In (check all that apply)</legend>
+      <input type="checkbox" name="holidaytheme" id="holidaytheme" value="yes" />
+      <label for="holiday">Holiday Theme</label><br />
+      <input type="checkbox" name="custom" id="custom" value="yes" />
+      <label for="custom">Custom</label><br />
+      <input type="checkbox" name="formal" id="formal" value="yes" />
+      <label for="formal">Formal</label><br />
+      <input type="checkbox" name="cosplay" id="cosplay" value="yes" />
+      <label for="cosplay">Cosplay</label><br />
+      <input type="checkbox" name="otherwordly" id="otherwordly" value="yes" />
+      <label for="Otherwordly">Otherwordly</label>
+      </fieldset>
+      </td>
+
+   </tr></table>
+
+   </td>
+
+</tr>
+
+<tr>
+   <td colspan="2">
+      <hr style="color: rgb(121,216,100); background-color: rgb(121,216,100); height: 1" />
+   </td>
+</tr>
+
+
+<!-- Comments -->
+<tr>
+   <td valign="top" colspan="2">
+
+   <table><tr>
+      <td width="100" valign="top">
+      <label for="comments">Comments and Suggestions.</label>
+      </td>
+      <td valign="top">
+      <textarea name="comments" id="comments" rows="6" cols="50"></textarea>
+      </td>
+   </tr></table>
+
+   </td>
+</tr>
+
+<tr>
+   <td colspan="2">
+      <hr style="color: rgb(121,216,100); background-color: rgb(121,216,100); height: 1" />
+   </td>
+</tr>
+<!-- Buttons -->
+<tr>
+   <td valign="top" colspan="2" align="center">
+   <input type="submit" value="Send Registration" />
+   <input type="reset" value="Cancel" />
+   </td>
+</tr>
+<!-- Address -->
+<tr style="background-color: white">
+   <td colspan="2" align="center" valign="bottom">
+      <address style="font-family: sans-serif; font-size: 0.6em; font-style: normal">
+            Turtle Top &#8250;&#8250;&#8250; Accessories and Hats for Your Needs
+      </address>
+   </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
